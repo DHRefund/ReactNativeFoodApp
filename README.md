@@ -3,12 +3,16 @@
   <div>
     <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React Native" />
     <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="Expo" />
-        <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=F02E65" alt="Appwrite" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=F02E65" alt="Appwrite" />
     <img src="https://img.shields.io/badge/-Tailwind-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
   </div>
 
   <h3 align="center">Food Delivery Mobile App</h3>
+
+  <a href="https://www.figma.com/design/Db9dlAO1oHpWbu95jpPrVT/Food-Delivery-App?node-id=0-1&t=yLDnjwjEOksG4EAa-1" target="_blank">
+    <img src="https://img.shields.io/badge/-View%20Figma%20Design-black?style=for-the-badge&logoColor=white&logo=figma&color=F24E1E" alt="Figma Design" />
+  </a>
 
 </div>
 
@@ -22,7 +26,7 @@
 
 - **[React Native](https://reactnative.dev/)** is a framework for building mobile UIs with React. It enables component‑based, cross-platform development with declarative UI, deep native API support, and is tightly integrated with Expo for navigation and native capabilities.
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework enabling rapid UI design via low-level classes. In React Native/Expo, it’s commonly used with NativeWind to apply Tailwind-style utilities to mobile components.
+- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework enabling rapid UI design via low-level classes. In React Native/Expo, it's commonly used with NativeWind to apply Tailwind-style utilities to mobile components.
 
 - **[TypeScript](https://www.typescriptlang.org/)** is a statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling. It improves error detection, code quality, and scalability—ideal for robust, maintainable projects.
 
@@ -49,6 +53,12 @@
 
 and many more, including code architecture and reusability.
 
+## <a name="design">🎨 Design</a>
+
+The UI/UX design for this project is available on Figma. Click the badge below to view:
+
+[![Figma Design](https://img.shields.io/badge/-View%20Figma%20Design-black?style=for-the-badge&logoColor=white&logo=figma&color=F24E1E)](https://www.figma.com/design/Db9dlAO1oHpWbu95jpPrVT/Food-Delivery-App?node-id=0-1&t=yLDnjwjEOksG4EAa-1)
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
@@ -62,7 +72,6 @@ Make sure you have the following installed on your machine:
 - **[npm](https://www.npmjs.com/)** _(Node Package Manager)_
 
 **Cloning the Repository**
-
 ```bash
 git clone https://github.com/DHRefund/ReactNativeFoodApp.git
 ```
@@ -70,7 +79,6 @@ git clone https://github.com/DHRefund/ReactNativeFoodApp.git
 **Installation**
 
 Install the project dependencies using npm:
-
 ```bash
 npm install
 ```
@@ -78,7 +86,6 @@ npm install
 **Set Up Environment Variables**
 
 Create a new file named `.env` in the root of your project and add the following content:
-
 ```env
 EXPO_PUBLIC_APPWRITE_PROJECT_ID=
 EXPO_PUBLIC_APPWRITE_ENDPOINT=
@@ -87,10 +94,8 @@ EXPO_PUBLIC_APPWRITE_ENDPOINT=
 Replace the placeholder values with your actual credentials by signing up on the Appwrite dashboard.
 
 **Running the Project**
-
 ```bash
 npx expo start
 ```
 
 Open your ExpoGO app on your phone and scan the QR code to view the project.
-
